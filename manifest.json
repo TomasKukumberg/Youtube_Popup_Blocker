@@ -1,0 +1,17 @@
+{
+    "name" : "Youtube Popup Blocker",
+    "version" : "1.0.0",
+    "description" : "This is an extension to hide annoying youtube popups.",
+    "manifest_version": 3,
+    "author" : "Tomáš Kukumberg",
+    "action" : {
+        "default_popup" : "index.html",
+        "default_title" : "Youtube Popup Blocker"
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://www.youtube.com/watch*"],
+          "js": ["script.js"]
+        }
+    ]
+}
