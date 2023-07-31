@@ -13,4 +13,4 @@ A simple and lightweight extension to block annoying Youtube popups at the end o
 git clone https://github.com/TomasKukumberg/React-portfolio.git
 ```
 ### 2. Go to your browser/extensions/ and enable dev mode in the top right
-### 3. Click the 'Load unpacked extension' and choose the cloned folder.
+### 3. Click the 'Load unpacked extension' and choose the cloned folder
